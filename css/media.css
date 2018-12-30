@@ -1,0 +1,530 @@
+/*Start Header Media*/
+/*1200*/
+@media (max-width: 1200px){
+    header nav .right-side ul li {
+    font-size: 12px;
+    padding-left: 27px;
+    }
+    header .right-side img{
+        height: 70px;
+    }
+    header .left-side{
+        font-size: 12px;
+    }
+    header .left-side .language {
+    padding-left: 0px;
+    }
+    header .left-side ul li.search-ico, header .left-side ul li.social-icon:not(:last-child) {
+    padding-left: 13px;
+    }
+}
+/*/1200*/
+/*991*/
+@media (max-width: 991px){
+    header .left-side .social-icon{
+        display: none
+    }
+    header .left-side ul li.search-ico, header .left-side ul li.social-icon:not(:last-child){
+        padding-left: 0
+    }
+    header .right-side .nav-links ul:not(:nth-child(1)) {
+        display: block;
+        position: fixed;
+        top: 0;
+        left:-220px;
+        width: 220px;
+        background: #213a9e;
+        z-index: 99;
+        height: 100%;
+        text-align: right;
+        padding-right: 0;
+        padding-top: 40px;
+        transition: all .3s;
+        
+    }
+    header .right-side .nav-links ul:not(:nth-child(1)) li {
+        padding: 10px 15px 10px 0;
+        font-size: 15px
+    }
+    header .right-side .nav-links ul li{
+
+        display: block
+    }
+    header nav .right-side .nav-links .dropdown a:nth-child(1):before{
+        top: 20px;
+        bottom: unset;
+    }
+
+    header .center-side {
+        margin: auto 0;
+        display: block;
+    }
+    header .center-side button{
+        background: transparent;
+        color: #64d641;
+        border-radius: 10px;
+        border: 3px solid #64d641;
+        cursor: pointer;
+        transition: all .3s
+    }
+    header .center-side button:hover{
+        background: #fff;
+        transition: all .3s;
+    }
+    header nav .right-side ul li a.active{
+        display: none
+    }
+    header nav .right-side ul li:not(:last-child):not(:nth-child(4)):after,
+    header nav .right-side ul li.dropdown a:first-child:after{
+        display: none
+    }
+    header nav .right-side .nav-links .mySideNav li{
+        position: relative
+    }
+
+    header nav .right-side #closeNav{
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        color: #fff;
+        z-index: 100
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        z-index:90;
+        background: #000;
+        position: fixed;
+        opacity: .7
+        
+    }
+    
+}
+/*/991*/
+/*425*/
+@media(max-width: 425px){
+    header .container-fluid{
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    header .right-side img{
+        height: 40px
+    }
+    header .center-side button{
+        font-size: 10px;
+        border-radius: 6px
+    }
+    header .left-side{
+        font-size: 10px;
+    }
+    header .left-side .language{
+        padding-left: 9px;
+    }
+}
+/*/425*/
+/*End Header Media*/
+/*Start Hero Media*/
+/*1024*/
+@media(max-width: 1024px){
+    .hero .slider .carousel-inner .carousel-caption{
+        bottom: 10%;
+    }
+}
+/*/1024*/
+/*991*/
+@media(max-width: 991px){
+    .hero .slider .carousel-inner .carousel-caption h1,
+    .hero .slider .carousel-inner .carousel-caption h2{
+        font-size: 29px;
+    }
+    .hero .slider .carousel-inner .carousel-caption p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .hero .slider .carousel-inner .carousel-caption button{
+        padding: 21px 46px;
+        font-size: 12px;
+        
+    }
+}
+/*/991*/
+/*768*/
+@media(max-width: 768px){
+    .hero .slider .carousel-inner .carousel-caption p{
+        padding-left: 182px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        line-height: 26px;
+        font-size: 14px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        text-align: justify;
+    }
+    .hero .slider .carousel-inner .carousel-caption{
+        bottom: 14%
+    }
+    .hero .slider .carousel-inner .carousel-caption h1,
+    .hero .slider .carousel-inner .carousel-caption h2{
+        font-size: 20px;
+    }
+    .hero .slider .carousel-inner .carousel-caption button{
+        padding: 15px 35px;
+        font-size: 10px;
+        
+    }
+}
+/*/768*/
+/*520*/
+@media(max-width: 520px){
+    .hero .carousel-control-next,
+    .hero .carousel-control-prev{
+        display: none
+    }
+    .hero .slider .carousel-inner .carousel-caption h1,
+    .hero .slider .carousel-inner .carousel-caption h2{
+        font-size: 13px;
+    }
+    .hero .slider .carousel-inner .carousel-caption p{
+        font-size: 9px;
+        line-height: 19px;
+        padding-left: 121px;
+        padding-top:0;
+        padding-bottom: 0
+    }
+    .hero .slider .carousel-inner .carousel-caption button{
+        font-size: 8px;
+        padding: 10px 23px;
+        
+    }
+    
+}     
+/*/520*/
+/*360*/
+@media(max-width: 360px){
+        .hero .slider .carousel-inner .carousel-caption{
+        bottom: 0
+    }
+}
+/*/360*/
+/*End Hero Media*/
+/*Start Tabs Media*/
+/*1200*/
+@media(max-width: 1200px){
+
+}
+/*/1200*/
+/*1024*/
+@media(max-width: 1024px){
+
+}
+/*/1024*/
+/*991*/
+@media(max-width: 991px){
+    .tabs li a{
+        font-size: 37px
+    }
+    .tabs li h5{
+        font-size: 13px
+    }
+}
+/*991*/
+/*768*/
+@media(max-width:768px){
+    .tabs li a{
+        font-size: 22px
+    }
+    .tabs li h5{
+        font-size: 9px
+    }
+}
+/*/768*/
+/*520*/
+@media(max-width:520px){
+    .tabs li a{
+        font-size: 18px
+    }
+    .tabs li h5{
+        font-size: 8px
+    }
+}
+/*/520*/
+/*425*/
+@media(max-width:425px){
+    .tabs li a{
+        font-size: 14px
+    }
+    .tabs li h5{
+        font-size: 5px
+    }
+}
+/*/425*/
+/*End Tabs Media*/
+/*Start Tabs_Container Media*/
+/*1200*/
+@media(max-width:1200px){
+    .tab_container .carousel .description p{
+        padding-left: 29px
+    }
+    .tab_container .carousel-indicators{
+        bottom: 3%
+    }
+    .tab_container .carousel-inner img{
+        height: 100%
+    }
+    .tab_container .carousel-inner .img-back{
+        width: 73%;
+        height: 100%
+    }
+}
+/*/1200*/
+/*1024*/
+@media(max-width: 1024px){
+    .tab_container .carousel .description p{
+        line-height: 30px;
+        font-size: 17px;
+        padding: 20px 0 20px 20px;
+    }
+        .tab_container .carousel-inner .img-back{
+        width: 70%;
+    }
+    .tab_container .carousel .description button{
+        margin-top: 20px
+    }
+}
+/*/1024*/
+/*991*/
+@media(max-width: 991px){
+    .tab_container .carousel-inner img{
+        height: 100%;
+        float: right;
+        width: 100%;
+        
+    }
+    .tab_container .carousel-inner .img-back{
+        width: 100%;
+        height: 100%
+    }
+    .tab_container .carousel .description{
+        padding-top: 50px
+    }
+    .tab_container .carousel-control-next,
+    .tab_container .carousel-control-prev{
+        display: none
+    }
+    .tab_container .carousel-indicators{
+        right: 0;
+        bottom: -7%
+    }
+    .tab_container .carousel-indicators li{
+  
+        margin-left: 30px;
+    }
+    
+}
+/*/991*/
+/*425*/
+@media(max-width:425px){
+    .tab-container{
+        padding-top: 50px
+    }
+    .tab_container .title h2{
+        font-size: 24px;
+    }
+    .tab_container .title h5{
+        font-size: 10px
+    }
+    .tab_container .title h5:after{
+        border-bottom: 4px solid #213a9e;
+        width: 45px;
+        left: 45%;
+    }
+    .tab_container .carousel .description h1{
+        font-size: 18px;
+    }
+    .tab_container .carousel .description p{
+        font-size: 12px;
+        line-height: 25px;
+        padding-left: 0
+    }
+    .tab_container .carousel .description button{
+        font-size: 10px;
+        padding: 10px 20px;
+        margin-top: 0
+    }
+}
+/*/425*/
+
+/*End Tabs_Container Media*/
+/*Start News Media*/
+/*991*/
+@media(max-width:991px){
+    .news .sm-sec{
+        padding-top: 50px
+    }
+    .news .readmore{
+        padding-top: 0
+    }
+
+}
+/*/991*/
+/*520*/
+@media (max-width: 520px){
+    .news .news-content .sm-sec img{
+        padding-left: 19px
+    }
+}
+/*/520*/
+/*425*/
+@media(max-width: 425px){
+    .news {
+        padding: 50px 0
+    }
+    .news .news-content .sm-sec img{
+        width: 100%;
+    }
+    .news .title span{
+        font-size: 21px;
+    }
+    .news .title h5{
+        font-size: 15px;
+        margin-bottom: 0
+    }
+    .news .title h5:after{
+        width: 40px;
+        border-bottom: 4px solid #213a9e
+    }
+    .news .news-content .lg-sec h2{
+        font-size: 13px
+    }
+    .news .news-content .details{
+        font-size: 9px
+    }
+    .news .news-content .lg-sec p{
+        font-size: 10px;
+        line-height: 22px
+    }
+    .news .news-content .lg-sec p span{
+        font-size: 9px;
+    }
+    .news .news-content .sm-sec{
+        padding-top: 0
+    }
+    .news .news-content .sm-sec img{
+        padding-bottom: 20px
+    }
+    .news .news-content .sm-sec .description h2{
+        font-size: 13px;
+    }
+    .news .news-content .sm-sec .description p{
+        font-size: 10px
+    }
+    .news .news-content .sm-sec .description p span{
+        font-size: 9px
+    }
+    .news .readmore button{
+        font-size: 10px;
+        margin-top: 0px;
+        padding: 10px 20px;
+    }
+    
+}
+/*/425*/
+/*End News Media*/
+/*Start Footer Media*/
+/*991*/
+@media(max-width: 991px){
+    footer .top-footer .contact-us,
+    footer .top-footer .location{
+    padding-top: 80px;
+    }
+    
+    footer .top-footer .contact-us h4:before,
+    footer .top-footer .location h4:before{
+        top: 130px;
+    }
+    footer #map{
+        height: 400px
+    }
+    footer .bottom-footer{
+        font-size: 13px
+    }
+    footer .bottom-footer img{
+        width: 88px
+    }
+}
+/*/991*/
+/*768*/
+@media(max-width: 768px){
+    footer .bottom-footer{
+        font-size: 8px;
+    }
+    footer .bottom-footer img{
+        width: 70px
+    }
+}
+/*/768*/
+
+/*425*/
+@media(max-width: 425px){
+    footer .top-footer{
+        padding: 40px 0
+    }
+    footer .top-footer h4{
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+    footer .top-footer h4:before{
+        border-bottom: 4px solid #213a9e;
+        top: 40px
+    }
+    footer .top-footer .send-msg input::-webkit-input-placeholder{
+        font-size: 9px;
+    }
+    footer .top-footer .send-msg button{
+        font-size: 8px
+    }
+    footer .top-footer .contact-us{
+    font-size: 12px
+    }
+    
+    footer .top-footer .contact-us p{
+        font-size: 12px;
+        line-height: 22px
+    }
+    footer .top-footer .send-msg label,
+    footer .top-footer form > *:not(:last-child){
+        font-size: 11px
+    }
+    footer .bottom-footer{
+        text-align: center !important;
+        font-size: 10px
+    }
+    footer .bottom-footer img{
+        float: none !important;
+        padding-bottom: 10px;
+        width: 80px
+    }
+    footer .bottom-footer .cpyright{
+        text-align: center !important;
+    }
+}
+/*/425*/
+/*End Footer Media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
